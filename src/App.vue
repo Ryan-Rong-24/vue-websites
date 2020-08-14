@@ -1,22 +1,26 @@
-<template>
+<template> <!---html-->
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
-<script>
+<script> //js
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
+  name: 'App', //页面名称
+  components: { //导入vue的元素
     HelloWorld
-  }
-}
-</script>
+  },
+  data:()=>({ //数据
 
-<style>
+  })
+}
+</script> 
+
+<style> 
+/* css */ 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
