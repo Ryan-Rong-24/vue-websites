@@ -1,4 +1,4 @@
-# hello_world
+# Vue websites
 Hello! Welcome to this repository where I build small gadgets in Vue such as a calculator, alarm clock, and more! <br>
 
 ## Project setup
